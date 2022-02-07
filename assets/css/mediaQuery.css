@@ -1,0 +1,31 @@
+@media(min-width: 400px) and (max-width:600px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-color: rgb(124, 12, 12);
+    }
+    .nav-bar{
+        background-color: grey;
+        width: 12rem;
+        border-radius: 4px;
+    }
+    ul{
+        display: block;
+        height: auto;
+    }
+    a{
+        display: block;
+        padding: 0 1rem;
+    }
+    li{
+        display: block;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo h1{
+        padding: 0 1rem;
+    }
+}
