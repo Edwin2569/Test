@@ -25,3 +25,36 @@ nav .nav-bar ul li a{
     text-decoration: none;
     font-size: 18px;
 }
+.hamburger{
+    display: block;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.hamburger span{
+    width: 28px;
+    height: 2px;
+    display: block;
+    margin-bottom: 4px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 1;
+    transform-origin: 0 0;
+    transition: 1s;
+}
+.hamburger:hover span:nth-child(1){
+    transform: rotate(30deg);
+}
+.hamburger:hover span:nth-child(2){
+    opacity: 0;
+}
+.hamburger:hover span:nth-child(3){
+    transform: rotate(-30deg);
+}
